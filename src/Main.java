@@ -12,11 +12,11 @@ public class Main {
 
 
 
-        ServiceStation.check(car, null, null);
-        ServiceStation.check(car2, null, null);
-        ServiceStation.check(null, bicycle, null);
-        ServiceStation.check(null, bicycle2, null);
-        ServiceStation.check(null, null, truck);
-        ServiceStation.check(null, null, truck2);
+        ServiceStation.check(car);
+        ServiceStation.check(car2);
+        ServiceStation.check(bicycle);
+        ServiceStation.check(bicycle2);
+        ServiceStation.check(truck);
+        ServiceStation.check(truck2);
     }
 }
