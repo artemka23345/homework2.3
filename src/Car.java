@@ -1,4 +1,4 @@
-public class Car extends GroundTransport implements MachineEngine{
+public class Car extends GroundTransport implements EngineBeingTested{
 
 
     public Car(String modelName, int wheelsCount) {

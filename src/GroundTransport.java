@@ -1,4 +1,4 @@
-public class GroundTransport {
+public abstract class  GroundTransport {
     private String modelName;
     private int wheelsCount;
 

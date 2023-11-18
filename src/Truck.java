@@ -1,4 +1,4 @@
-public class Truck extends GroundTransport implements MachineEngine,Freight{
+public class Truck extends GroundTransport implements EngineBeingTested,Freight{
 
     public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
