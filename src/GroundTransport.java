@@ -26,4 +26,6 @@ public abstract class  GroundTransport {
     public void updateTyre() {
         System.out.println("Меняем покрышку");
     }
+
+    public abstract void check();
 }
