@@ -7,10 +7,7 @@ public class Car extends GroundTransport implements EngineBeingTested{
 
     @Override
     public void check() {
-        System.out.println("Обслуживаем " + getModelName());
-        for (int i = 0; i < getWheelsCount(); i++) {
-            updateTyre();
-        }
+        checkTransport();
         checkEngine();
     }
 
