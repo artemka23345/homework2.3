@@ -26,14 +26,7 @@ public abstract class  GroundTransport {
     public void updateTyre() {
         System.out.println("Меняем покрышку");
     }
-
-    public void checkTransport(){
-        System.out.println("Обслуживаем " + getModelName());
-        for (int i = 0; i < getWheelsCount(); i++) {
-            updateTyre();
-        }
-    }
-
     public void check(){
+
     }
 }
